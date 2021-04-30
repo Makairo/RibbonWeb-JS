@@ -24,7 +24,7 @@
     background-color: lightpink;
 }
 .navbar li a.active-page {
-    background-color: hotpink;
+    background-color: violet;
 }
 .center {
     text-align: center;
@@ -41,10 +41,19 @@
     overflow: auto;
 
 }
-.ribbonBox .ribbon {
+.ribbonBox .rText {
+    margin: 0;
     text-align: left;
-    color: black;
-    font-size: 16px;
+    padding: 5px 5px 5px 10px;
+    background-color: violet;
+    display: block;
+}
+.ribbonBox .uText{
+    margin: 0;
+    text-align: right;
+    padding: 14px 16px 14px 16px;
+    background-color: lightblue;
+    display: block;
 }
 .userInput {
     margin: auto;
@@ -54,7 +63,7 @@
     width: 80%;
 }
 .userInput input {
-    width: 600px;
+    width: 60%;
 }
 .cmdList {
     text-align: center;
@@ -62,7 +71,7 @@
 }
 
 body {
-    font-family: 'Lucida Console';
+    font-family:Arial, Helvetica, sans-serif;
     background-color: lightgray;
     margin: 0px;
 }
