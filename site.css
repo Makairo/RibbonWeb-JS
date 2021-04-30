@@ -1,0 +1,82 @@
+﻿.navbar{
+    width: auto;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    background-color: lightblue;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.navbar li a:hover {
+    background-color: lightpink;
+}
+.navbar li a.active-page {
+    background-color: hotpink;
+}
+.center {
+    text-align: center;
+}
+.ribbonBox {
+    margin: auto;
+    position: center;
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    vertical-align: bottom;
+    overflow: auto;
+
+}
+.ribbonBox .ribbon {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+.userInput {
+    margin: auto;
+    position: center;
+    text-align: center;
+    border: 2px solid black;
+    width: 80%;
+}
+.userInput input {
+    width: 600px;
+}
+.cmdList {
+    text-align: center;
+
+}
+
+body {
+    font-family: 'Lucida Console';
+    background-color: lightgray;
+    margin: 0px;
+}
+table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table th {
+    border: 2px solid black;
+}
+table tr td{
+    border: 1px solid darkslategray;
+}
+
+
